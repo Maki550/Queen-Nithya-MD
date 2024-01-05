@@ -15,8 +15,8 @@ const fs = require('fs-extra')
  global.website = 'https://github.com/' //wa.me/+91000000000000 
  global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' 
  module.exports = { 
-   botname:   process.env.BOT_NAME === undefined ? '' : process.env.BOT_NAME, 
-   ownername: process.env.OWNER_NAME === undefined ? '' : process.env.OWNER_NAME,  
+   botname:   process.env.BOT_NAME === undefined ? '𝐯𝐢𝐨𝐥𝐚🍷' : process.env.BOT_NAME, 
+   ownername: process.env.OWNER_NAME === undefined ? '𝐦𝐚𝐤𝐢''  : process.env.OWNER_NAME,  
    author:  process.env.PACK_INFO.split(";")[0] === undefined ? '' : process.env.PACK_INFO.split(";")[0], 
    auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS, 
    packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '-' : process.env.PACK_INFO.split(";")[1],
